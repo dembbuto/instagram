@@ -27,6 +27,5 @@ export default function usePosts() {
       rollbackOnError: true,
     })
   }
-  
   return { posts, isLoading, error, setLike };
 }
